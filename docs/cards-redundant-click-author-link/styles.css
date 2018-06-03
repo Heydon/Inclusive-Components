@@ -24,7 +24,7 @@ h1 {
 }
 
 .card + .card {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 @supports (display: grid) {
@@ -37,6 +37,12 @@ h1 {
 
     .card + .card {
         margin-top: 0;
+    }
+
+    @media (max-width: 400px) {
+        .cards > ul {
+            grid-gap: 4.5rem;
+        }
     }
 }
 

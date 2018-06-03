@@ -24,7 +24,7 @@ h1 {
 }
 
 .card + .card {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 @supports (display: grid) {
